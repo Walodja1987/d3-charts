@@ -1,0 +1,29 @@
+body {
+    font: 15px sans-serif;
+  }
+  
+.x.axis path {
+  stroke: #B8B8B8;
+  stroke-width: 2px;
+}
+
+.y.axis path {
+  fill: none;
+  stroke: white;
+  shape-rendering: crispEdges;
+}
+
+.line {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 3px;
+}
+
+.tick line {
+  stroke: grey;
+  stroke-width: 2px;
+}
+
+  
+
+

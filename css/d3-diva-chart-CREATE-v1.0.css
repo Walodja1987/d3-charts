@@ -1,0 +1,11 @@
+.lineLong {
+    fill: none;
+    stroke: steelblue;
+    stroke-width: 2px;
+}
+ 
+.lineShort {
+    fill: none;
+    stroke: orange;
+    stroke-width: 2px;
+}

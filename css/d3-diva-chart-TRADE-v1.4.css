@@ -1,0 +1,11 @@
+.line {
+    fill: none;
+    stroke: grey;
+    stroke-width: 5px;
+}
+
+  
+.xAxisG path{
+    stroke: #B8B8B8;
+    stroke-width: 3px;
+  }

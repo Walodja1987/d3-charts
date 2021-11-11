@@ -1,0 +1,33 @@
+<!-- General comments regarding outsourcing svg files 
+    
+     - In order to be able to move the svg element into a separate file you need the xmlns attribute (source: https://www.youtube.com/watch?v=6uVGeMkL0FY)
+     - It's not possible to use an external stylesheet, you need to use a <style> element inside the svg file itself (source: https://css-tricks.com/using-svg/)
+
+-->
+
+<svg xmlns="http://www.w3.org/2000/svg" class="chart" width="420" height="120">
+        <style>
+            svg rect {
+            fill: orange;
+            }
+
+            svg text {
+                fill:white;
+                font: 10px sans-serif;
+                text-anchor: end;
+            }
+        </style>
+        
+        <g transform="translate(0,0)">
+            <rect width="50" height="19"></rect>
+            <text x="47" y="9.5" dy=".35em">5</text>
+        </g>
+        <g transform="translate(0,20)">
+            <rect width="100" height="19"></rect>
+            <text x="97" y="9.5" dy=".35em">10</text>
+        </g>
+        <g transform="translate(0,40)">
+            <rect width="120" height="19"></rect>
+            <text x="117" y="9.5" dy=".35em">12</text>
+        </g>
+</svg>
